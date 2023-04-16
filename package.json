@@ -7,7 +7,7 @@
     "node": "17.7.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "nodemon app.js",
     "start-server": "node app.js"
   },
@@ -30,6 +30,8 @@
     "socket.io": "^4.6.1"
   },
   "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
     "nodemon": "^1.18.4"
   }
 }
